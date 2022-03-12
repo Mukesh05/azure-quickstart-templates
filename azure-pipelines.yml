@@ -19,7 +19,7 @@ steps:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'terraformServiceConnection'
     subscriptionId: 'cfc18062-78d6-4b71-b71a-c001708cdd09'
-    action: 'DeleteRG'
+    action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMPipelinesLAMP-rg'
     location: 'centralIndia'
     templateLocation: 'Linked artifact'
